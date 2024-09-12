@@ -17,8 +17,8 @@ class User_login
   {
     $cek = $this->ci->m_login->login($username, $password);
     if($cek){
-      username = $cek->username;
-      password = $cek->password;
+      $username = $cek->username;
+      $password = $cek->password;
     }
   }
 }
